@@ -1,0 +1,102 @@
+html, body { height: 100% }
+.bloco {min-height: 100%; padding: 100px;}
+.corpo{min-height: 100%; padding: 100px;}
+
+
+.bloco{ 
+	animation: animabg 20s infinite;
+	background-image: url('../img/foto2.png');
+	background-repeat: no-repeat;
+	background-size: cover;	
+ }
+
+
+@keyframes animabg{
+	40%{background-image: url('../img/foto1.png');}
+    80%{background-image: url('../img/foto3.png');}
+    100%{background-image: url('../img/foto2.png');}
+}
+
+.dica{ 
+	margin: 100px;
+	border: 3px solid;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: all; 
+	text-align: center;
+	color: white;
+	 }
+
+.dica p{
+		text-align: justify;
+
+}
+
+
+.menu{
+	padding: 10px;
+    background-color:rgba(0,0.7,0.9,0.9);
+
+	
+}
+
+
+ ul{
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		
+		
+}
+
+a{
+	margin: 15px;
+	color: #ffffff;
+}
+
+.foter{
+		padding: 20px;
+		background-color:rgba(2,100,100,0.9);
+		color: white;
+		border: 0.05px;
+		text-align: center;
+}
+
+.formulario{
+	background-color:rgba(100,100,100,0.9);
+	position: relative;
+	padding-top: 50px;
+}
+
+.foto{
+	border: 3px solid white;
+	padding: 2px 111px 2px;
+}
+
+.letra {  color:#ffffff;}
+
+.info_int{
+	padding:15px;
+	padding-bottom: 10px;
+}
+
+.bt{
+	margin: 9px;
+	padding: 10px;
+}
+
+.dvt{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+#container-a{
+	background-color: aqua;
+}
+
+#container-b{
+	background-color: aquamarine;
+}
+.campo{
+	display: inline-block;
+}

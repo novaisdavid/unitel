@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<title>MAIS VIDA MINI-versao</title>
+		<script type="text/javascript" src="js/conf_java.js">
+			
+		</script>		
+
+	</head>
+	<body>
+		<header>
+			<nav class="menu navbar navbar-default">
+				<!--menu da págima-->
+					<a href="index.html" class="navbar-brand"> MAIS VIDA </a>
+					<ul  class=" navbar navbar-right"> 
+						<li class="nav-line"> <a class="nav-link active" href="cadastrar.html"> SER UM DOADOR </a> </li>
+						<li class="nav-line"> <a class="nav-link active" href="entrar.html"> CONSULTAR </a> </li>
+						<li class="nav-line"> <a class="nav-link active" href="sobre_mim.html"> SOBRE DOAR SANGUE </a> </li>
+						<li class="nav-line"> <a class="nav-link active" href="hospitais.html"> HOSPITAIS PRÓXIMO </a> </li>
+					</ul>
+
+			</nav>
+		</header>
+
+		<section class="formulario">
+				<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<label class="letra"> Aviso de dados incompleto</label> <br><input type="range"  id="aviso" min="0"  max="100">
+					</div>
+					<div class="col-lg-6">
+						<h1 class="">DADOS DO VOLUNTÁRIO</h1><br>
+						<form method="" action="" class="form-group">
+							<div class="form-group">
+								<label for="nome" class="letra"> Nome </label>
+								<input type="text" name="nome" id="nome" class="form-control" placeholder="primeiro e último nome" onblur="verificaNomedoVoluntario()">	
+							</div><br>
+
+							<div class="form-group">
+								<label for="email" class="letra"> Email </label>
+								<input type="email" name="email" id="email" class="form-control" placeholder="email">	
+							</div><br>
+
+							<div class="form-group">
+								<label for="contacto" class="letra"> contacto </label>
+								<input type="text" name="contacto" id="contacto" class="form-control" placeholder="contacto" onblur="verificaContacto()">	
+							</div><br>
+
+							<div class="form-group">
+								<label for="data_nascimento" class="letra"> data de nascimento </label>
+								<input type="date" name="data_nascimento" id="data_nascimento" class="form-control" placeholder="01/01/2022"  onblur="calculaIdade()">
+
+								<div class="campo">
+							 		<label class="letra">idade</label>	<input type="" name="idade" id="idade" class="form-control " style="width: 60px;">
+								 	<label class="letra">restrição</label>	<input type="text" id="restricao" class="form-control " style="width: 180px;">	
+								</div>
+							</div><br>
+
+							<div class="form-group">
+								<label for="genero" class="letra"> Genero:</label>
+								<input type="radio" name="genero" id="genero_1" class="form-group "><label class="letra"> Masculino</label>
+								<input type="radio" name="genero" id="genero_2" class="form-group "><label class="letra"> Feminino</label>
+							</div><br>
+
+							<div class="form-group">
+								<select class="form-select">
+									<option value=""> Nacionalidade</option>
+									<option value="1"> Angolana</option>
+									<option value="2">Cabo Verdiana</option>
+									<option value="3">Congolesa</option>
+									<option value="4">Moçambicana</option>
+								</select>
+							</div><br>
+
+							<div class="form-group">
+								<label for="sangue" class="letra"> Grupo de Sangue </label>
+								<input type="text" name="" id="sangue" class="form-control" placeholder="informe seu grupo de sangue">
+								<input type="checkbox" name="" id="sangue" class="form-group "><label class="letra"> Não conheço meu grupo de sangue</label>	
+							</div><br>
+
+							<input type="submit" value="Cadastrar" class="form-group btn btn-primary btn-block bt" onclick=" alertaCadastrar()">
+							<input type="reset" value="cancelar" class="form-group btn btn-danger bt" onclick="alertaCancelar()">
+						</form>
+
+					</div>
+						<div class="col-lg-3">  </div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="">
+			<footer class="footer footer-box">
+				<div class="foter">
+					<p>NOVAIS KICUNDA QUIBAMBO DAVID   &copy copyright 2022</p>
+				</div>
+			</footer>
+			
+		</section>
+    </body>
+</html>
