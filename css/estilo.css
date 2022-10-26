@@ -33,10 +33,14 @@ html, body { height: 100% }
 }
 
 .dica2{
-	margin-left: 400px;
+	margin-left: 200px;
 	padding: 90px;
 }
 
+.dica2 h2{
+	color: #ffffff;
+	text-align: center;
+}
 .menu{
 	padding: 10px;
     background-color:rgba(0,0.7,0.9,0.9);
@@ -80,6 +84,7 @@ a{
 .letra {  color:#ffffff;}
 
 .info_int{
+	height: 400px;
 	padding:15px;
 	padding-bottom: 10px;
 }
@@ -88,7 +93,17 @@ a{
 	margin: 9px;
 	padding: 10px;
 }
-
+.bt2{
+	margin-left: 300px;
+	padding-top: 8px;
+}
+.bt_info{
+	margin-top: 10px;
+	margin-left: 3px;
+}
+.hp{
+	margin-top: 10px;
+}
 .dvt{
 	width: 50px;
 	height: 50px;
@@ -101,6 +116,7 @@ a{
 #container-b{
 	background-color: aquamarine;
 }
-.campo{
-	display: inline-block;
+
+.titulo2{
+	text-align: center;
 }

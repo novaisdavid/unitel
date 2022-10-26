@@ -1,3 +1,4 @@
+
 var incrementaAviso=50;
 var incrementoNome=0;
 var incrementoContacto=0;
@@ -76,7 +77,7 @@ function calculaIdade(){
 			if (tamanho==8) {
 				incrementoDataNascimento=-10;
 				pegaIdadeConvertida=calculadataAnoNascimento(dataNascimento)
-				if (pegaIdadeConvertida>18) {
+				if (pegaIdadeConvertida>=16) {
 					document.getElementById('idade').value=pegaIdadeConvertida;
 					document.getElementById("restricao").style.color='green';
 					document.getElementById('restricao').value="idade válida";	
