@@ -13,16 +13,40 @@
 	</head>
 	<body>
 		<header>
-			<nav class="menu navbar navbar-default">
-				<!--menu da págima-->
+			<nav class="menu navbar navbar-expand-lg navbar-dark">
+				<div class="container">
 					<a href="index.html" class="item navbar-brand"> MAIS VIDA </a>
-					<ul  class=" navbar navbar-right"> 
-						<li class="nav-line"> <a class="item" href="cadastrar.html"> SER UM DOADOR VOLUNTÁRIO</a> </li>
-						<li class="nav-line"> <a class="item" href="entrar.html"> CONSULTAR </a> </li>
-						<li class="nav-line"> <a class="item" href="sobre_mim.html"> SOBRE DOAR SANGUE </a> </li>
-						<li class="nav-line"> <a class="item" href="hospitais.html"> HOSPITAIS PRÓXIMO </a> </li>
-					</ul>
+					<button
+                    	class="navbar-toggler"
+                    	type="button"
+                   		data-bs-toggle="collapse"
+                    	data-bs-target="#navbarSupportedContent"
+                    	aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                   		<span class="navbar-toggler-icon"></span>
+                	</button>
 
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar nav" >
+							<li class="nav-line">
+								 <a class="item" aria-current="page" href="cadastrar.html"> SER UM DOADOR VOLUNTÁRIO</a>
+							</li>
+							<li class="nav-line"> 
+								<a class="item" aria-current="page" href="entrar.html"> CONSULTAR </a> 
+							</li>
+							<li class="nav-line"> 
+								<a class="item" aria-current="page" href="sobre_mim.html"> SOBRE DOAR SANGUE </a> 
+							</li>
+							<li class="nav-line"> 
+								<a class="item" aria-current="page" href="hospitais.html"> HOSPITAIS PRÓXIMO </a> 
+							</li>
+							   
+						</ul>
+
+					</div>
+
+				</div>
+
+				<!--menu da págima-->
 			</nav>
 		</header>
 
@@ -106,6 +130,8 @@
 
 			</div>
 		</section>
+
+		<script src="js/bootstrap.js"></script>
 
 		<section class="">
 			<footer class="footer footer-box">

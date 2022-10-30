@@ -41,9 +41,9 @@ html, body { height: 100% }
 	color: #ffffff;
 	text-align: center;
 }
+
 .menu{
-	padding: 10px;
-    background-color:rgba(0,0.7,0.9,0.9);
+    background-color:rgba(61, 61, 61, 0.9);
 
 	
 }
@@ -53,13 +53,16 @@ html, body { height: 100% }
 		list-style: none;
 		display: flex;
 		flex-wrap: wrap;
-		
-		
 }
+
+ul li{
+	margin: 30px;
+}
+
 
 .item{
 	text-decoration: none; 
-	margin: 15px;
+	padding: 2px;
 	color: #ffffff;
 }
 
